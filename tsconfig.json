@@ -1,0 +1,13 @@
+// tsconfig.json
+
+{
+  "compilerOptions": {
+    "allowJs": true // 允许项目中含.js和.jsx文件
+    // "strict": true //严格模式
+  },
+  // 指定需要编译的文件或目录。代表递归找所有子孙目录下面的所有文件
+  "include": ["**/*"],
+
+  // 指定不需要编译的文件或目录 默认配置会排除node_modules
+  "exclude": ["node_modules", "dist", "**/*.js", "test/*"]
+}
