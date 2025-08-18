@@ -6,3 +6,4 @@ const fn = (): void => {
 };
 
 fn();
+export {};
