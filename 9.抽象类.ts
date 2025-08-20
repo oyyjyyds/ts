@@ -17,3 +17,5 @@ class B extends A {
 
 const b = new B('我是B');
 b.init();
+
+export {};
